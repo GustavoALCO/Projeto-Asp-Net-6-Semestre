@@ -12,8 +12,8 @@ using projeto6semestre.Context;
 namespace projeto6semestre.Migrations
 {
     [DbContext(typeof(OrganizadorContext))]
-    [Migration("20240319193512_projeto")]
-    partial class projeto
+    [Migration("20240412015401_NomeDaMigracao")]
+    partial class NomeDaMigracao
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,6 +35,10 @@ namespace projeto6semestre.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Imagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("Preco")
                         .HasColumnType("float");
 
@@ -45,6 +49,37 @@ namespace projeto6semestre.Migrations
                     b.HasKey("IdProduto");
 
                     b.ToTable("Produtos");
+                });
+
+            modelBuilder.Entity("projeto6semestre.Models.Usuario", b =>
+                {
+                    b.Property<Guid>("IdUsuario")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("IdUsuario");
+
+                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }

@@ -32,6 +32,10 @@ namespace projeto6semestre.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Imagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("Preco")
                         .HasColumnType("float");
 

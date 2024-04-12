@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj": {}
+    "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj": {
+    "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj",
+        "projectUniqueName": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj",
         "projectName": "projeto6semestre",
-        "projectPath": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj",
+        "projectPath": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\projeto6semestre.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\obj\\",
+        "outputPath": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"

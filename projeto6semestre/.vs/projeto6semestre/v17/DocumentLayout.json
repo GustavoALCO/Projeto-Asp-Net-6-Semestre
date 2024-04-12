@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\",
+  "WorkspaceRootPath": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\users\\alves\\downloads\\aspnetudemy\\projeto6semestre\\projeto6semestre\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\users\\alves\\downloads\\aspnetudemy\\projeto6semestre\\projeto6semestre\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\users\\alves\\downloads\\aspnetudemy\\projeto6semestre\\projeto6semestre\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\angular-csharp\\projeto-asp-net-6-semestre\\projeto6semestre\\projeto6semestre\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\users\\alves\\downloads\\aspnetudemy\\projeto6semestre\\projeto6semestre\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\angular-csharp\\projeto-asp-net-6-semestre\\projeto6semestre\\projeto6semestre\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\angular-csharp\\projeto-asp-net-6-semestre\\projeto6semestre\\projeto6semestre\\services\\imageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\services\\imageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\angular-csharp\\projeto-asp-net-6-semestre\\projeto6semestre\\projeto6semestre\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\users\\alves\\downloads\\aspnetudemy\\projeto6semestre\\projeto6semestre\\context\\organizadorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|c:\\angular-csharp\\projeto-asp-net-6-semestre\\projeto6semestre\\projeto6semestre\\context\\organizadorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5749F4CC-CF0A-41D5-BD1F-CAE0B176782C}|projeto6semestre\\projeto6semestre.csproj|solutionrelative:projeto6semestre\\context\\organizadorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +38,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\appsettings.json",
-              "RelativeDocumentMoniker": "projeto6semestre\\appsettings.json",
-              "ToolTip": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\appsettings.json",
-              "RelativeToolTip": "projeto6semestre\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-11T16:12:48.236Z",
+              "DocumentIndex": 2,
+              "Title": "ImageUpload.cs",
+              "DocumentMoniker": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Services\\ImageUpload.cs",
+              "RelativeDocumentMoniker": "projeto6semestre\\Services\\ImageUpload.cs",
+              "ToolTip": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Services\\ImageUpload.cs",
+              "RelativeToolTip": "projeto6semestre\\Services\\ImageUpload.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T01:21:27.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Program.cs",
+              "DocumentMoniker": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Program.cs",
               "RelativeDocumentMoniker": "projeto6semestre\\Program.cs",
-              "ToolTip": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Program.cs",
+              "ToolTip": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Program.cs",
               "RelativeToolTip": "projeto6semestre\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,13 +64,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProdutosController.cs",
-              "DocumentMoniker": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Controllers\\ProdutosController.cs",
+              "DocumentMoniker": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Controllers\\ProdutosController.cs",
               "RelativeDocumentMoniker": "projeto6semestre\\Controllers\\ProdutosController.cs",
-              "ToolTip": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Controllers\\ProdutosController.cs",
+              "ToolTip": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "projeto6semestre\\Controllers\\ProdutosController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowDAAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T17:08:43.879Z",
               "EditorCaption": ""
@@ -79,11 +79,11 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Models\\Usuario.cs",
+              "DocumentMoniker": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "projeto6semestre\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Models\\Usuario.cs",
+              "ToolTip": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Models\\Usuario.cs",
               "RelativeToolTip": "projeto6semestre\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAA4wBkAAAAJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T18:02:34.07Z"
             },
@@ -91,9 +91,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "OrganizadorContext.cs",
-              "DocumentMoniker": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Context\\OrganizadorContext.cs",
+              "DocumentMoniker": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Context\\OrganizadorContext.cs",
               "RelativeDocumentMoniker": "projeto6semestre\\Context\\OrganizadorContext.cs",
-              "ToolTip": "C:\\Users\\alves\\Downloads\\ASPNETUDEMY\\projeto6semestre\\projeto6semestre\\Context\\OrganizadorContext.cs",
+              "ToolTip": "C:\\angular-csharp\\Projeto-Asp-Net-6-Semestre\\projeto6semestre\\projeto6semestre\\Context\\OrganizadorContext.cs",
               "RelativeToolTip": "projeto6semestre\\Context\\OrganizadorContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

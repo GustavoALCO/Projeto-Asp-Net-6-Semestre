@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using projeto6semestre.Context;
 using projeto6semestre.Models;
+using projeto6semestre.Services;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -72,11 +73,27 @@ namespace projeto6semestre.Controllers
         [HttpPost("CriarProdutos")]
         public IActionResult post(Produtos produto)
         {
-            if (produto == null)
-                return BadRequest("Não Foi Possivel Criar");
-            _context.Produtos.Add(produto);
-            _context.SaveChanges();
-            return Ok(produto);
+                if (produto == null)
+                    return BadRequest("Não foi Passado nenhum dado para o Produto");
+
+                try
+                {
+
+                        var ImageUpload = new ImageUpload();
+                         produto.Imagem = ImageUpload.Upload64Image(produto.Imagem, "demo");
+                        //Pega a Base64 Antiga e transforma em uma URL 
+                        _context.Produtos.Add(produto);
+
+                        _context.SaveChanges();
+
+                        return Ok(produto);
+
+                }
+                catch (Exception ex) 
+                {
+                    return StatusCode(500, "Ocorreu um erro ao tentar criar o produto. \n" + ex);
+                }
+            
         }
 
         [HttpPut("AlterarProduto/{Id}")]
@@ -86,19 +103,28 @@ namespace projeto6semestre.Controllers
 
             if (produto == null)
             {
-                return NotFound("produto Não encontrado");
+                return BadRequest("Passe as Informações para o Produto");
+            }
+            try
+            {
+                var ImageUpload = new ImageUpload();
+                produto.Imagem = ImageUpload.Upload64Image(produtoNovo.Imagem, "demo");
+                produto.Produto = produtoNovo.Produto;
+                produto.Descricao = produtoNovo.Descricao;
+                produto.Preco = produtoNovo.Preco;
+
+
+                _context.Entry(produto).State = EntityState.Modified;
+
+                _context.SaveChanges();
+
+                return Ok(produto);
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, "Não foi Possivel Alterar o Produto" + ex);
             }
             
-            produto.Produto = produtoNovo.Produto;
-            produto.Descricao = produtoNovo.Descricao;
-            produto.Preco = produtoNovo.Preco;
-            
-
-            _context.Entry(produto).State = EntityState.Modified;
-
-            _context.SaveChanges();
-
-            return Ok(produto);
         }
     }
 }
