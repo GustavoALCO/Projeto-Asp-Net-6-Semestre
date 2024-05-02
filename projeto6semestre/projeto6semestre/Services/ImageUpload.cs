@@ -19,10 +19,10 @@ namespace projeto6semestre.Services
             //transforma a imagem em um array de bytes
 
             
-            var blobClient = new BlobClient("CONECTION STRING DO STORAGE", container, Nome);
+            var blobClient = new BlobClient("DefaultEndpointsProtocol=https;AccountName=demoprojeto;AccountKey=1OyReAlnk4jEgV8TYnjusUfi91nkdfu+NIb/mu8/RpWmzv+5rxVqLCW4aDi0678NvyGboYgHEd0d+AStVwEppw==;EndpointSuffix=core.windows.net", container, Nome);
             // Define o Storage no qual a imagem será armazenada
 
-            // Envia a imagem
+            // Envia a imagem para o Storage
             using (var stream = new MemoryStream(imageBytes))
             {
                 blobClient.Upload(stream);

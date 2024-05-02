@@ -25,7 +25,7 @@ namespace projeto6semestre.Controllers
         {
             var produtos = _context.Produtos.ToList();
             if (produtos.Count > 0)
-            { 
+            {
                 return Ok(produtos);
             }
             else
@@ -46,9 +46,10 @@ namespace projeto6semestre.Controllers
         [HttpGet("BuscarProdutosPorNome/{nome}")]
         public IActionResult GetProdutoPorNome(string nome)
         {
-            var produtos = _context.Produtos.Where(n => n.Produto == nome).ToList();
-    
-            if (produtos == null || produtos.Count == 0)
+            var produtos = _context.Produtos.Where(n => n.Produto.Contains(nome)).ToList();
+
+
+            if (!produtos.Any())
             {
                 return NotFound("Não foi possível encontrar produtos com o nome especificado.");
             }
@@ -73,14 +74,14 @@ namespace projeto6semestre.Controllers
         [HttpPost("CriarProdutos")]
         public IActionResult post(Produtos produto)
         {
-                if (produto == null)
-                    return BadRequest("Não foi Passado nenhum dado para o Produto");
+              //  if (produto == null)
+               //     return BadRequest("Não foi Passado nenhum dado para o Produto");
 
                 try
                 {
 
                         var ImageUpload = new ImageUpload();
-                         produto.Imagem = ImageUpload.Upload64Image(produto.Imagem, "demo");
+                        produto.Imagem = ImageUpload.Upload64Image(produto.Imagem, "image");
                         //Pega a Base64 Antiga e transforma em uma URL 
                         _context.Produtos.Add(produto);
 
@@ -108,7 +109,7 @@ namespace projeto6semestre.Controllers
             try
             {
                 var ImageUpload = new ImageUpload();
-                produto.Imagem = ImageUpload.Upload64Image(produtoNovo.Imagem, "demo");
+                produto.Imagem = ImageUpload.Upload64Image(produtoNovo.Imagem, "image");
                 produto.Produto = produtoNovo.Produto;
                 produto.Descricao = produtoNovo.Descricao;
                 produto.Preco = produtoNovo.Preco;

@@ -273,3 +273,5 @@ C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\o
 C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\bin\Debug\net8.0\Azure.Storage.Blobs.dll
 C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\bin\Debug\net8.0\Azure.Storage.Common.dll
 C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\obj\Debug\net8.0\projeto6semestre.sourcelink.json
+C:\angular-csharp\Projeto-Asp-Net-6-Semestre\projeto6semestre\projeto6semestre\bin\Debug\net8.0\System.Web.Cors.dll
